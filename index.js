@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import PageColor from "./chapter_13/Sample4/PageColor";
-
+import ContextHook from "./chapter_13/Sample3/ContextHook";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-    <PageColor />
+    <ContextHook />
 );
